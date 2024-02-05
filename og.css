@@ -1,0 +1,166 @@
+body {
+    background-color: #2C3639;
+    margin: 0;
+   
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 100px;
+    margin:30px;
+    color: #DCD7C9;
+}
+h2{
+    font-family: 'Noto Serif JP', serif;
+    font-size: 40px;
+    color: #A27B5C;
+}
+.welcome{
+    color: #A27B5C;
+}
+p{
+    font-size: 20px;
+    
+}
+/* Navbar styles */
+nav {
+    background: #2C3639;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position:sticky;
+    top: 0;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-color: #232a2c;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #DCD7C9;
+}
+h2{
+    margin-top: 0;
+}
+
+.main-page{
+    position: absolute;
+}
+.bigdiv1{
+    position: relative;
+    align-items:center;
+}
+.hold{
+    padding: 60px;
+    background-color: #DCD7C9;
+    
+}
+.never{
+    padding: 60px;
+    
+}
+.join{
+    padding: 30px;
+    float:left;
+    width: 50%;
+}
+.right{
+    padding: 30px;
+    float:right;
+    width: 50%;
+}
+.img1{
+    height: 400px;
+    width: 300px;
+    margin-left: 200px ;
+}
+
+.bala {
+    text-align: center;
+    padding-left: 30%;
+    padding-right: 30%;
+    position: relative;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 20px;
+    padding: 60px;
+}
+
+.footer{
+    display: flex;
+}
+.contact-us {
+    width: 25%;
+    height: 50%;
+    text-align: center;
+    padding: 2rem;
+    position: relative;
+    top: 75%;
+    left: 5%;
+    /* transform: translate(-50%, -50%); */
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.8px);
+    -webkit-backdrop-filter: blur(3.8px);
+}
+.frame{
+   
+    margin-left: 300px;
+    height: 50%;
+    width: 75%;
+}
+
+
+.footer {
+    background-color: #2C3639;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    padding: 50px;
+}
+
+.footer form {
+    display: inline-block;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.footer input[type="text"], .footer input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.footer input[type="submit"] {
+    width: auto;
+    padding: 10px 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.footer frame {
+    display: block;
+    width: 100%;
+    height: 100px;
+    border: none;
+}
